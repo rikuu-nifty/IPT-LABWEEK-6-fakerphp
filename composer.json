@@ -1,0 +1,19 @@
+{
+    "name": "aufccs/ipt10-lab6-fakerphp",
+    "description": "A simple PHP project using Composer",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Aufccs\\Ipt10Lab6Fakerphp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jansen Venal"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "fakerphp/faker": "^1.23"
+    }
+}
